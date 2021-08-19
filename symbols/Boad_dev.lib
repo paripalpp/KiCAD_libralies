@@ -1,12 +1,12 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ES32-DevKitC
+# ESP32-DevKitC
 #
-DEF ES32-DevKitC U 0 40 Y Y 1 F N
+DEF ESP32-DevKitC U 0 40 Y Y 1 F N
 F0 "U" 0 1050 50 H V C CNN
-F1 "ES32-DevKitC" 0 -1250 50 H V C CNN
-F2 "Boad_dev:ES32-DevKitC" 0 1050 50 H I C CNN
+F1 "ESP32-DevKitC" 0 -1250 50 H V C CNN
+F2 "Boad_dev:ESP32-DevKitC" 0 1050 50 H I C CNN
 F3 "" 0 1050 50 H I C CNN
 DRAW
 S -400 1000 400 -1200 0 1 0 f
