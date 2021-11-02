@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IPTG011N08NM5
+D 408A Id, 80V Vds, OptiMOS™ 5 N-Channel Power MOSFET, 1.1mOhm Ron, Qg (typ) 178.0nC, PG-HSOG-8-1
+K OptiMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-IPTG011N08NM5-DataSheet-v02_00-EN.pdf?fileId=5546d46277921c320177aa3f5c9e7d54
+$ENDCMP
+#
+#End Doc Library
