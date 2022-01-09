@@ -6,7 +6,7 @@
     (property "Value" "BSC025N08LS5" (id 1) (at 10.16 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD_additional:infineon_PG-HSOG-8-1" (id 2) (at 0 0 0)
+    (property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPTG011N08NM5-DataSheet-v02_00-EN.pdf?fileId=5546d46277921c320177aa3f5c9e7d54" (id 3) (at 0 0 0)
