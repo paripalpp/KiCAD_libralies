@@ -1,0 +1,377 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TLP152" (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -5.08 4.953 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TLP152" (id 1) (at -5.08 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO_additional:SO-6_5pin_4.4x3.6mm_P1.27mm" (id 2) (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A" (id 3) (at 7.62 0 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "ki_keywords" "MOSFET Output Photocoupler totem pole output" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "MOSFET Photocoupler totem pole output, Vcc 35V, Iop +/-2.5A, 5pin SO6" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "MFSOP6*4.4x3.6mm*P1.27mm*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TLP152_0_0"
+      (polyline
+        (pts
+          (xy -3.1496 -2.54)
+          (xy -2.6416 -2.032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.6416 -2.032)
+          (xy -2.8956 -2.0828)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 -2.1336)
+          (xy 1.5748 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.5748 2.1336)
+          (xy 1.5748 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (text "SHIELD" (at -1.7272 -3.2004 0)
+        (effects (font (size 0.635 0.635)))
+      )
+    )
+    (symbol "TLP152_0_1"
+      (rectangle (start -5.08 3.81) (end 5.08 -3.81)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -4.1656 -0.6096)
+          (xy -2.8448 -0.6096)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 -1.9304)
+          (xy -2.286 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 -1.524)
+          (xy -2.286 -1.1176)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 -0.6096)
+          (xy -2.286 -0.2032)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 0.3048)
+          (xy -2.286 0.7112)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 1.2192)
+          (xy -2.286 1.6256)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.286 2.1336)
+          (xy -2.286 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.3556 0.6096)
+          (xy -1.6764 0.6096)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.508 -2.54)
+          (xy -2.286 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.1684 2.1336)
+          (xy 1.9812 2.1336)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.4384 -1.1176)
+          (xy 1.9812 -1.1176)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.4384 -0.3048)
+          (xy 2.4384 -1.9304)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.4384 1.1176)
+          (xy 1.9812 1.1176)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.4384 1.9304)
+          (xy 2.4384 0.3048)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 -0.3048)
+          (xy 2.794 -1.9304)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 1.9304)
+          (xy 2.794 0.3048)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 0)
+          (xy 5.08 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 -1.1176)
+          (xy 3.81 -1.1176)
+          (xy 3.81 -2.1336)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 1.1176)
+          (xy 3.81 1.1176)
+          (xy 3.81 0.508)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -2.54)
+          (xy 0.508 -2.54)
+          (xy 0.508 -0.8636)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 2.54)
+          (xy 0.508 2.54)
+          (xy 0.508 0.8636)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 2.54)
+          (xy -3.5052 2.54)
+          (xy -3.5052 -2.54)
+          (xy -5.08 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.5052 -0.6096)
+          (xy -4.1402 0.6604)
+          (xy -2.8702 0.6604)
+          (xy -3.5052 -0.6096)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.016 0.6096)
+          (xy -0.381 -0.6604)
+          (xy -1.651 -0.6604)
+          (xy -1.016 0.6096)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.0508 -1.1684)
+          (xy -1.016 -1.1684)
+          (xy -1.016 1.1684)
+          (xy 0.0508 1.1684)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.9812 2.1336)
+          (xy 1.9812 -2.1336)
+          (xy 1.1684 -2.1336)
+          (xy 1.1684 2.1336)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 -1.7272)
+          (xy 3.81 -1.7272)
+          (xy 3.81 -2.54)
+          (xy 5.08 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 -0.508)
+          (xy 3.81 -0.508)
+          (xy 3.81 0.508)
+          (xy 2.794 0.508)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.794 1.7272)
+          (xy 3.81 1.7272)
+          (xy 3.81 2.54)
+          (xy 5.08 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.9972 -1.1176)
+          (xy 3.5052 -0.9906)
+          (xy 3.5052 -1.2446)
+          (xy 2.9972 -1.1176)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.9972 1.1176)
+          (xy 3.5052 1.2446)
+          (xy 3.5052 0.9906)
+          (xy 2.9972 1.1176)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.1684 0)
+          (xy 0.9144 0)
+          (xy 0.0508 1.8288)
+          (xy 0.0508 -1.8288)
+          (xy 0.9144 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 3.81 0) (radius 0.127)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "TLP152_1_1"
+      (pin passive line (at -7.62 2.54 0) (length 2.54)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at -7.62 -2.54 0) (length 2.54)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 -2.54 180) (length 2.54)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line (at 7.62 0 180) (length 2.54)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 7.62 2.54 180) (length 2.54)
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
