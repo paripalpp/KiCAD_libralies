@@ -72,20 +72,20 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -17.78 -5.08 0) (length 5.08)
-        (name "VREF" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
       (pin power_out line (at 17.78 7.62 180) (length 5.08) hide
         (name "OUT1" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -17.78 -5.08 0) (length 5.08)
+        (name "VREF" (effects (font (size 1.27 1.27))))
+        (number "20" (effects (font (size 1.27 1.27))))
       )
       (pin free line (at -2.54 -20.32 90) (length 5.08) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -20.32 90) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
+        (name "GRND" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
       (pin free line (at -2.54 -20.32 90) (length 5.08) hide
@@ -113,7 +113,7 @@
         (number "28" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 2.54 -20.32 90) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
+        (name "GRND" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
       (pin power_out line (at 17.78 7.62 180) (length 5.08) hide
