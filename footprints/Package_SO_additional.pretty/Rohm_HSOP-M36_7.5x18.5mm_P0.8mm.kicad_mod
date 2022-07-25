@@ -1,6 +1,6 @@
 (footprint "Rohm_HSOP-M36_7.5x18.5mm_P0.8mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62D428E7)
+  (tedit 62DE8759)
   (descr "HSOP 11.0x15.9mm Pitch 0.65mm Slug Up (PowerSO-36) [JEDEC MO-166] (http://www.st.com/resource/en/datasheet/vn808cm-32-e.pdf, http://www.st.com/resource/en/application_note/cd00003801.pdf)")
   (tags "HSOP 11.0 x 15.9mm Pitch 0.65mm")
   (attr smd)
@@ -70,9 +70,4 @@
   (pad "36" smd roundrect (at 4.65 -8.4) (size 1.2 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 6fd4442e-30b3-428b-9306-61418a63d311))
   (pad "37" smd roundrect (at -4.65 0) (size 1.2 2.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.02) (tstamp b08d76c9-0c1d-4e22-bfdb-f517b0226c34))
   (pad "38" smd roundrect (at 4.65 0) (size 1.2 2.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.02) (tstamp 5847a28c-6e9c-40d6-80fc-1bdb35f9a145))
-  (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/HSOP-36-1EP_11.0x15.9mm_P0.65mm_SlugUp.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

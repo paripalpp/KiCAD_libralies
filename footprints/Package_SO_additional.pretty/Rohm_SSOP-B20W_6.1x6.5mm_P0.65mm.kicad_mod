@@ -1,6 +1,6 @@
 (footprint "Rohm_SSOP-B20W_6.1x6.5mm_P0.65mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62DD7A47)
+  (tedit 62DE8765)
   (descr "SSOP-B20w: plastic shrink small outline package; 20 leads; body width 6.1 mm;")
   (tags "SSOP 0.65")
   (attr smd)
@@ -50,9 +50,4 @@
   (pad "18" smd rect (at 3.75 -1.625) (size 1 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f976e2cc-36f9-4479-a816-2c74d1d5da6f))
   (pad "19" smd rect (at 3.75 -2.275) (size 1 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b635b16e-60bb-4b3e-9fc3-47d34eef8381))
   (pad "20" smd rect (at 3.75 -2.925) (size 1 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 13475e15-f37c-4de8-857e-1722b0c39513))
-  (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-20_4.4x6.5mm_P0.65mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
