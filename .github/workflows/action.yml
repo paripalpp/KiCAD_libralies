@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          apt update && apt install lua
+          sudo apt install lua
           lua list.lua
           git config user.name  "actions-user"
           git config user.email "action@github.com"
