@@ -27,7 +27,9 @@ function scan_fp()
             ret = ret .. "- " .. file_name .. "\n"
             local footprints = io.popen([[ls -pa ./footprints/]]..file_name..[[ | grep -v /]]):lines()
             for fp in footprints do
-                ret = ret .. "    - " .. fp .. "\n"
+                if file_name:find(".kicad_mod") then
+                    ret = ret .. "    - " .. fp .. "\n"
+                end
             end
         end
     end
