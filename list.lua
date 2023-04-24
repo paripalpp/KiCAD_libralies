@@ -42,7 +42,7 @@ function update_readme()
         "%1"..scan_sym().."%2")
     file = file:gsub("(<!%-%- start_footprint_list %-%->\n).-(<!%-%- end_footprint_list %-%->)",
         "%1"..scan_fp().."%2")
-    file = file:gsub("(<!-- start_timestamp -->\n).-(<!-- end_timestamp -->)",
+    file = file:gsub("(<!%-%- start_timestamp %-%->\n).-(<!%-%- end_timestamp %-%->)",
         "%1"..os.date( "!%a %b %d %H:%M:%S %Y UTC\n").."%2")
     io.open("./README.md", "w+"):write(file)
 end
