@@ -3,6 +3,10 @@
 このライブラリを使用したことによって生じた損害などにいかなる責任も負いません。  
   
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
+### last update of following list
+<!-- start_timestamp -->
+Thu Jan 01 00:00:00 1970 UTC
+<!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
 - AnalogDevices.kicad_sym
