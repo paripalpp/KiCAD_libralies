@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Tue Oct 03 16:11:06 2023 UTC
+Tue Nov 07 15:52:45 2023 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -35,6 +35,8 @@ Tue Oct 03 16:11:06 2023 UTC
     - WS2812C
 - MCU_WCH_CH32.kicad_sym
     - CH32V203C8Tx
+- RF_Module_additional.kicad_sym
+    - E220-900T22S(JP)
 - Regulator_Switching_additional.kicad_sym
     - MT2492
     - NCP1034
@@ -113,6 +115,8 @@ Tue Oct 03 16:11:06 2023 UTC
     - infineon_PG-HSOG-8-1.kicad_mod
 - Potentiometer_additional.pretty/
     - Potentiometer_Murata_PVZ3A.kicad_mod
+- RF_Module_additional.pretty/
+    - E220-900T22S(JP).kicad_mod
 - interplan.pretty/
     - IM920(IM920c_ADP).kicad_mod
     - IM920c.kicad_mod
