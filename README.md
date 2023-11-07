@@ -5,13 +5,14 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Thu Jan 01 00:00:00 1970 UTC
+Tue Oct 03 16:11:06 2023 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
 - AnalogDevices.kicad_sym
     - ADP151_TSOT
 - Boad_dev.kicad_sym
+    - DOIT_ESP32-DevKit-v1
     - ESP32-DevKitC
     - M5STAMP-PICO
     - NUCLEO-F446RE
@@ -58,6 +59,7 @@ Thu Jan 01 00:00:00 1970 UTC
     - BatteryHolder_AT_BH-44F-5.kicad_mod
     - LP401730.kicad_mod
 - Boad_dev.pretty/
+    - DOIT_ESP32-DevKit-v1.kicad_mod
     - ESP32-DevKitC.kicad_mod
     - M5STAMP-PICO.kicad_mod
     - Nucleo-64_ST_morpho.kicad_mod
@@ -85,6 +87,7 @@ Thu Jan 01 00:00:00 1970 UTC
     - T_connecter_male_horizontal.kicad_mod
 - Connector_USB_additional.pretty/
     - USB micro B 2pin.kicad_mod
+    - USB_C_Receptacle_CUI_ UJC-HP-3-SMT-TR_TopMnt_Horizontal.kicad_mod
     - USB_C_Receptacle_HDGC_C-DB-110PWB_16P_MidMnt_Horizontal.kicad_mod
 - Crystal_additional.pretty/
     - Crystal_SMD_SeikoEpson_FC135-2Pin_3.2x1.5mm.kicad_mod
