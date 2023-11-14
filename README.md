@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Tue Nov 07 15:52:45 2023 UTC
+Tue Nov 14 17:52:51 2023 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -14,6 +14,7 @@ Tue Nov 07 15:52:45 2023 UTC
 - Boad_dev.kicad_sym
     - DOIT_ESP32-DevKit-v1
     - ESP32-DevKitC
+    - M5STAMP-C3/C3U
     - M5STAMP-PICO
     - NUCLEO-F446RE
 - Connector_additional.kicad_sym
@@ -63,6 +64,7 @@ Tue Nov 07 15:52:45 2023 UTC
 - Boad_dev.pretty/
     - DOIT_ESP32-DevKit-v1.kicad_mod
     - ESP32-DevKitC.kicad_mod
+    - M5STAMP-C3C3U.kicad_mod
     - M5STAMP-PICO.kicad_mod
     - Nucleo-64_ST_morpho.kicad_mod
     - RaspberryPi_HAT_Connector_4hole.kicad_mod
