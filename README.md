@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Fri Jun 21 18:07:03 2024 UTC
+Fri Jun 21 19:10:52 2024 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -28,6 +28,7 @@ Fri Jun 21 18:07:03 2024 UTC
     - BD63130AFM
     - STSPIN32G4
 - Interface_CAN_LIN_additional.kicad_sym
+    - CA-IS1044S
     - TCAN1042DRBRQ1
     - TJA1044GTK-3
 - Interface_Ethernet_additional.kicad_sym
