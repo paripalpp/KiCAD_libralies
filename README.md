@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Tue Nov 14 17:52:51 2023 UTC
+Fri Jun 21 11:03:02 2024 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -29,8 +29,11 @@ Tue Nov 14 17:52:51 2023 UTC
     - STSPIN32G4
 - Interface_CAN_LIN_additional.kicad_sym
     - TCAN1042DRBRQ1
+- Interface_Ethernet_additional.kicad_sym
+    - LAN9354
 - Isolator_additional.kicad_sym
     - BM67220FV-C
+    - CA-IS3740LB
     - TLP152
 - LED_additional.kicad_sym
     - WS2812C
@@ -49,6 +52,7 @@ Tue Nov 14 17:52:51 2023 UTC
     - IPT007N06N
     - IPTG011N08NM5
     - TPH11006NL
+    - YJS05N06A
 - interface_USB_additional.kicad_sym
     - CH340K
 - interplan.kicad_sym
