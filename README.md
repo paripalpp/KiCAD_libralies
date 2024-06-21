@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Fri Jun 21 19:10:52 2024 UTC
+Fri Jun 21 19:26:16 2024 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -37,6 +37,8 @@ Fri Jun 21 19:10:52 2024 UTC
     - BM67220FV-C
     - CA-IS3740LB
     - TLP152
+    - TLP293
+    - TLP293-4
 - LED_additional.kicad_sym
     - WS2812C
 - MCU_WCH_CH32.kicad_sym
