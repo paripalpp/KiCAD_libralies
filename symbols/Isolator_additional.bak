@@ -440,14 +440,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3202821"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "4 channel digital isolator"
 			(at 0 0 0)
 			(effects
