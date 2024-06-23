@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Fri Jun 21 19:26:16 2024 UTC
+Sun Jun 23 07:13:22 2024 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -48,6 +48,7 @@ Fri Jun 21 19:26:16 2024 UTC
 - Regulator_Switching_additional.kicad_sym
     - MT2492
     - NCP1034
+    - SCT2401
 - Sensor_Current_additional.kicad_sym
     - ACS72981
 - Transistor_FET_additional.kicad_sym
@@ -78,6 +79,7 @@ Fri Jun 21 19:26:16 2024 UTC
     - RaspberryPi_HAT_Connector_4hole.kicad_mod
 - Button_Switch_additional.pretty/
     - IS-1245T-G.kicad_mod
+    - TS-1088-AR02016.kicad_mod
     - TVAF06-A020B-R.kicad_mod
 - Connector_JST_XA.pretty/
     - S02B-XASS-1.kicad_mod
