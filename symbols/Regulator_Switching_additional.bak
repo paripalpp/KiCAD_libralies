@@ -577,7 +577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2105241711_SCT-SCT2401TVBR_C2830166.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2734.pdf"
 			(at -2.54 2.54 0)
 			(effects
 				(font
@@ -586,7 +586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "600mA Step-Down DC-DC Regulator, Adjustable Output Voltage, 1.2MHz, TSOT-23-6"
+		(property "Description" "1A Step-Down DC-DC Regulator, Adjustable Output Voltage, 550kHz, TSOT-23-5"
 			(at 0 0 0)
 			(effects
 				(font
