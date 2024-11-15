@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Thu Oct 03 13:22:13 2024 UTC
+Fri Nov 15 15:52:59 2024 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -83,6 +83,8 @@ Thu Oct 03 13:22:13 2024 UTC
     - IS-1245T-G.kicad_mod
     - TS-1088-AR02016.kicad_mod
     - TVAF06-A020B-R.kicad_mod
+- Connector_Amass_additional.pretty/
+    - AMASS_XT90PW-M_1x02_P10.90mm_Horizontal.kicad_mod
 - Connector_JST_XA.pretty/
     - S02B-XASS-1.kicad_mod
     - S03B-XASK-1.kicad_mod
