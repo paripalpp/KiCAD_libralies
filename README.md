@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Fri Nov 15 15:52:59 2024 UTC
+Thu Nov 21 09:46:34 2024 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -83,6 +83,9 @@ Fri Nov 15 15:52:59 2024 UTC
     - IS-1245T-G.kicad_mod
     - TS-1088-AR02016.kicad_mod
     - TVAF06-A020B-R.kicad_mod
+- Connector_3M_additional.pretty/
+    - 3M_Mini-Clamp_37204-12E0-004PL_1x04_P2.00mm_Horizontal.kicad_mod
+    - 3M_Mini-Clamp_37204-62A3-004PL_1x04_P2.00mm_Vertical.kicad_mod
 - Connector_Amass_additional.pretty/
     - AMASS_XT90PW-M_1x02_P10.90mm_Horizontal.kicad_mod
 - Connector_JST_XA.pretty/
