@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Thu Nov 21 09:46:34 2024 UTC
+Thu Feb 27 19:31:18 2025 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -47,6 +47,7 @@ Thu Nov 21 09:46:34 2024 UTC
 - RF_Module_additional.kicad_sym
     - E220-900T22S(JP)
 - Regulator_Switching_additional.kicad_sym
+    - LM6160-Q1
     - MT2492
     - NCP1034
     - SCT2401
@@ -116,10 +117,13 @@ Thu Nov 21 09:46:34 2024 UTC
     - D_US2A.kicad_mod
 - Fuse_additional.pretty/
     - Fuseholder_Keystone_3568.kicad_mod
+- Inductor_additional.pretty/
+    - L_Changjiang_FEXL0420A.kicad_mod
 - LED_additional.pretty/
     - LED_2020Metric_WS2812C_2.0x2.0mm_P1.0mm.kicad_mod
 - Package_DFN_QFN_additional.pretty/
     - DFN-14_4.9x4.9mm_P0.65mm.kicad_mod
+    - Texas_RJR0014A_VQFN-HR-14_4x3.5mm_P0.5mm.kicad_mod
 - Package_LGA_additional.pretty/
     - Infineon_PG-TFLGA-13-1.kicad_mod
 - Package_SON_additional.pretty/
