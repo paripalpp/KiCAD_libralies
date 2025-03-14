@@ -1,0 +1,174 @@
+(footprint "L_Changjiang_FEXL0730A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Changjiang, FEXL0730A, 7.8x7.6x2.9mm, (https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404091528_cjiang--Changjiang-Microelectronics-Tech-FEXL0420A-1R0M_C5378474.pdf)")
+	(tags "Inductor power shielded cjiang fxl")
+	(property "Reference" "REF**"
+		(at 0 -4.8 0)
+		(layer "F.SilkS")
+		(uuid "4db6a82e-4169-4384-8115-350b13548146")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Changjiang_FEXL0730A"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "fd2b63eb-0ebe-415d-b64c-14106611a821")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3d9fb91-ca03-4979-8d52-8caa57635083")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2bf6da7-6a4f-48c5-b5d7-d0e50d80a3d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.95 -4.05)
+		(end -3.95 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f281d14c-b354-46a7-9277-ba4f42f0eda5")
+	)
+	(fp_line
+		(start -3.95 -4.05)
+		(end 3.95 -4.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4f9e8bd-1793-49f2-8436-cb9f0d26fec9")
+	)
+	(fp_line
+		(start -3.95 4.05)
+		(end -3.95 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f47b39ab-9982-44c5-a51c-b0dc5777c183")
+	)
+	(fp_line
+		(start -3.95 4.05)
+		(end 3.95 4.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a977340b-48f3-4710-a5ff-056a6c1a18d6")
+	)
+	(fp_line
+		(start 3.95 -4.05)
+		(end 3.95 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ee4c856-24b5-4203-b4b7-64374c7c32de")
+	)
+	(fp_line
+		(start 3.95 4.05)
+		(end 3.95 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05086a33-86f0-447b-86bf-1cfcd6f11315")
+	)
+	(fp_rect
+		(start -4 -4.1)
+		(end 4 4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "19771215-c8cd-436b-ab82-b1a4c5b3f550")
+	)
+	(fp_rect
+		(start -3.8 -3.9)
+		(end 3.8 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b68df00d-467e-451b-b31e-7e7ec88159aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "60c6569a-194e-4131-964c-da1b7a434969")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.55 0)
+		(size 2.3 7.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04347826087)
+		(uuid "e8bc82e2-108c-45d8-9478-d7fb5cb8c1b4")
+	)
+	(pad "2" smd roundrect
+		(at 2.55 0)
+		(size 2.3 7.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04347826087)
+		(uuid "26e99b85-caae-4995-9d08-09fa16a8212f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL7030-102.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
