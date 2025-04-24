@@ -1,7 +1,7 @@
 (footprint "3M_Mini-Clamp_37204-12E0-004PL_1x04_P2.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3M Mini-Clamp")
 	(tags "connector 3M Mini-Clamp horizontal")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -3 2.75 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a5a4f063-b36e-4ea3-85ba-db215cb8df54")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -318,7 +305,7 @@
 	(pad "" smd roundrect
 		(at 0 -6.85)
 		(size 10 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.02083333333)
 		(uuid "b17f5cfa-79b0-4c72-bac2-acb1081b0643")
 	)
@@ -332,40 +319,41 @@
 	(pad "1" smd roundrect
 		(at -3 2.75)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(uuid "2b78fb96-b83a-454d-9c4c-243d3fcbdc74")
 	)
 	(pad "2" smd roundrect
 		(at -1 2.75)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(uuid "7bdf0f3e-3a1c-4abb-9c33-d80432067514")
 	)
 	(pad "3" smd roundrect
 		(at 1 2.75)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(uuid "b180f6d0-d840-4b9f-8540-82b63ef22fd3")
 	)
 	(pad "4" smd roundrect
 		(at 3 2.75)
 		(size 1.2 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(uuid "03e75cc6-2d96-4d7f-9d3b-b64b049a6429")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-396_5273-04A_1x04_P3.96mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "/home/paripal/KiCAD_libralies/3dmodels/Connector_3M_additional/37204-12E0-004 PL_step.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 1.35 -1 14.15)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
