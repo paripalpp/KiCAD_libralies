@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Thu Apr 24 08:02:25 2025 UTC
+Thu Apr 24 14:14:15 2025 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
