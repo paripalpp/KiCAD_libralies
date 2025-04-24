@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Fri Mar 14 12:21:04 2025 UTC
+Thu Apr 24 08:02:25 2025 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -116,6 +116,7 @@ Fri Mar 14 12:21:04 2025 UTC
 - Diode_additional.pretty/
     - D_US2A.kicad_mod
 - Fuse_additional.pretty/
+    - Fuseholder_Keystone_3557-2.kicad_mod
     - Fuseholder_Keystone_3568.kicad_mod
 - Inductor_additional.pretty/
     - L_Changjiang_FEXL0420A.kicad_mod
