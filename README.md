@@ -5,12 +5,14 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Thu Apr 24 14:14:15 2025 UTC
+Wed May 13 15:01:13 2026 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
 - AnalogDevices.kicad_sym
     - ADP151_TSOT
+- Audio_additional.kicad_sym
+    - NJW1280MG2
 - Boad_dev.kicad_sym
     - DOIT_ESP32-DevKit-v1
     - ESP32-DevKitC
@@ -84,6 +86,8 @@ Thu Apr 24 14:14:15 2025 UTC
     - IS-1245T-G.kicad_mod
     - TS-1088-AR02016.kicad_mod
     - TVAF06-A020B-R.kicad_mod
+- Buzzer_Beeper_additional.pretty/
+    - Buzzer_Murata_PKMCS1818E.kicad_mod
 - Connector_3M_additional.pretty/
     - 3M_Mini-Clamp_37204-12E0-004PL_1x04_P2.00mm_Horizontal.kicad_mod
     - 3M_Mini-Clamp_37204-62A3-004PL_1x04_P2.00mm_Vertical.kicad_mod
@@ -125,6 +129,7 @@ Thu Apr 24 14:14:15 2025 UTC
     - LED_2020Metric_WS2812C_2.0x2.0mm_P1.0mm.kicad_mod
 - Package_DFN_QFN_additional.pretty/
     - DFN-14_4.9x4.9mm_P0.65mm.kicad_mod
+    - EQFN16-G2_2.3x2.3mm_P0.4mm_EP1.2x1.2mm_ThermalVias.kicad_mod
     - Texas_RJR0014A_VQFN-HR-14_4x3.5mm_P0.5mm.kicad_mod
 - Package_LGA_additional.pretty/
     - Infineon_PG-TFLGA-13-1.kicad_mod
