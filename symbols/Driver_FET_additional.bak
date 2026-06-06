@@ -1406,7 +1406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN_additional:Texas_DGX0019A_VSSOP-19_3x5.1mm_P0.5mm"
+		(property "Footprint" "Package_SO:Texas_DGS0020A_TSSOP-20_3x5.1mm_P0.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
