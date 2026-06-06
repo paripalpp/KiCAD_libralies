@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Wed May 13 16:35:30 2026 UTC
+Sat Jun 06 15:03:00 2026 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -26,6 +26,7 @@ Wed May 13 16:35:30 2026 UTC
     - 2EDF7275K
     - Si8274(DFN-14)
     - Si8274(SOIC-16)
+    - TPS4810-Q1
 - Driver_Motor_additional.kicad_sym
     - BD63130AFM
     - STSPIN32G4
@@ -130,6 +131,7 @@ Wed May 13 16:35:30 2026 UTC
 - Package_DFN_QFN_additional.pretty/
     - DFN-14_4.9x4.9mm_P0.65mm.kicad_mod
     - EQFN16-G2_2.3x2.3mm_P0.4mm_EP1.2x1.2mm_ThermalVias.kicad_mod
+    - Texas_DGX0019A_VSSOP-19_3x5.1mm_P0.5mm.kicad_mod
     - Texas_RJR0014A_VQFN-HR-14_4x3.5mm_P0.5mm.kicad_mod
 - Package_LGA_additional.pretty/
     - Infineon_PG-TFLGA-13-1.kicad_mod
