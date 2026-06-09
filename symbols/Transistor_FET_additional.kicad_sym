@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(symbol "APG022N06G"
 		(pin_names
 			(offset 1.016)
@@ -9,8 +9,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 10.16 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,6 +23,8 @@
 		)
 		(property "Value" "APG022N06G"
 			(at 10.16 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,42 +33,52 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://en.all-power.net/uploadfile/2022/0401/20220401120716299.pdf"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "150A Id, 60V Vds, N-Channel Enhancement MOSFET, 2.3mOhm Ron, Qg (typ) 110nC, PDFN5X6"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "SPICE"
 			(at 7.62 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,43 +87,37 @@
 		)
 		(property "Sim.Params" "type=\"M\" model=\"BSC025N08LS5\" lib=\"\""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Allpower Power MOSFET N-MOS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "APG022N06G_1_1"
-			(circle
-				(center -0.889 0)
-				(radius 2.794)
+			(polyline
+				(pts
+					(xy -2.286 1.905) (xy -2.286 -1.905)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
-				)
-			)
-			(circle
-				(center 0 -1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(polyline
@@ -124,19 +134,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 1.905) (xy -2.286 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.778 -1.27) (xy -1.778 -2.286)
+					(xy -1.778 2.286) (xy -1.778 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -160,34 +158,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 2.286) (xy -1.778 1.27)
+					(xy -1.778 -1.27) (xy -1.778 -2.286)
 				)
 				(stroke
 					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -218,6 +192,63 @@
 					(type outline)
 				)
 			)
+			(circle
+				(center -0.889 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
@@ -242,17 +273,6 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
@@ -273,7 +293,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -291,7 +312,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -345,7 +367,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -363,7 +386,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -381,7 +405,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -398,6 +423,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BSC025N08LS5"
 		(pin_names
@@ -406,8 +432,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 10.16 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,6 +446,8 @@
 		)
 		(property "Value" "BSC025N08LS5"
 			(at 10.16 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,42 +456,52 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPTG011N08NM5-DataSheet-v02_00-EN.pdf?fileId=5546d46277921c320177aa3f5c9e7d54"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "187A Id, 80V Vds, OptiMOS™ 5 N-Channel Power MOSFET, 2.5mOhm Ron, Qg (typ) 80nC, PG-TDSON-8"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "SPICE"
 			(at 7.62 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,43 +510,37 @@
 		)
 		(property "Sim.Params" "type=\"M\" model=\"BSC025N08LS5\" lib=\"\""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "BSC025N08LS5_1_1"
-			(circle
-				(center -0.889 0)
-				(radius 2.794)
+			(polyline
+				(pts
+					(xy -2.286 1.905) (xy -2.286 -1.905)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
-				)
-			)
-			(circle
-				(center 0 -1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(polyline
@@ -521,19 +557,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 1.905) (xy -2.286 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.778 -1.27) (xy -1.778 -2.286)
+					(xy -1.778 2.286) (xy -1.778 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -557,34 +581,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 2.286) (xy -1.778 1.27)
+					(xy -1.778 -1.27) (xy -1.778 -2.286)
 				)
 				(stroke
 					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -615,6 +615,63 @@
 					(type outline)
 				)
 			)
+			(circle
+				(center -0.889 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
@@ -639,17 +696,6 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
@@ -670,7 +716,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -688,7 +735,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -742,7 +790,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -760,7 +809,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -778,7 +828,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -795,6 +846,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "IPT007N06N"
 		(pin_names
@@ -803,8 +855,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 10.16 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,6 +869,8 @@
 		)
 		(property "Value" "IPT007N06N"
 			(at 10.16 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,61 +879,59 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPTG011N08NM5-DataSheet-v02_00-EN.pdf?fileId=5546d46277921c320177aa3f5c9e7d54"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "486A Id, 60V Vds, OptiMOS™ N-Channel Power MOSFET, 0.75mOhm Ron, Qg (typ) 216.0nC, PG-HSOF-8"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "IPT007N06N_1_1"
-			(circle
-				(center -0.889 0)
-				(radius 2.794)
+			(polyline
+				(pts
+					(xy -2.286 1.905) (xy -2.286 -1.905)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
-				)
-			)
-			(circle
-				(center 0 -1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(polyline
@@ -892,19 +948,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 1.905) (xy -2.286 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.778 -1.27) (xy -1.778 -2.286)
+					(xy -1.778 2.286) (xy -1.778 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -928,34 +972,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 2.286) (xy -1.778 1.27)
+					(xy -1.778 -1.27) (xy -1.778 -2.286)
 				)
 				(stroke
 					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -986,6 +1006,63 @@
 					(type outline)
 				)
 			)
+			(circle
+				(center -0.889 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
@@ -1008,17 +1085,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(circle
-				(center 0 1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(pin input line
@@ -1076,87 +1142,106 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "IPTG011N08NM5"
+	(symbol "IPTC017N10NM5LF2"
 		(pin_names
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
-			(at 10.16 1.27 0)
+			(at -5.334 4.572 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "IPTG011N08NM5"
-			(at 10.16 -1.27 0)
+		(property "Value" "IPTC017N10NM5LF2"
+			(at 10.922 4.826 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD_additional:infineon_PG-HSOG-8-1"
+		(property "Footprint" "Package_TO_SOT_SMD_additional:Infineon_PG-HDSOP-16-2"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPTG011N08NM5-DataSheet-v02_00-EN.pdf?fileId=5546d46277921c320177aa3f5c9e7d54"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-iptc017n10nm5lf2-datasheet-en.pdf"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "408A Id, 80V Vds, OptiMOS™ 5 N-Channel Power MOSFET, 1.1mOhm Ron, Qg (typ) 178.0nC, PG-HSOG-8-1"
+		(property "Description" "321A Id, 100V Vds, OptiMOS™ 5 N-Channel Power Linear MOSFET, 1.7mOhm Ron, Qg (typ) 165nC, PG-HDSOP-16"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
+		(property "ki_keywords" "OptiMOS Power Linear MOSFET N-MOS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(symbol "IPTG011N08NM5_1_1"
-			(circle
-				(center -0.889 0)
-				(radius 2.794)
+		(symbol "IPTC017N10NM5LF2_0_1"
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 6.35 3.81) (xy 6.35 -3.81) (xy 3.81 -3.81)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center 0 -1.778)
-				(radius 0.254)
+		)
+		(symbol "IPTC017N10NM5LF2_1_1"
+			(polyline
+				(pts
+					(xy -2.286 1.905) (xy -2.286 -1.905)
+				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(polyline
@@ -1173,19 +1258,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 1.905) (xy -2.286 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.778 -1.27) (xy -1.778 -2.286)
+					(xy -1.778 2.286) (xy -1.778 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1209,34 +1282,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 2.286) (xy -1.778 1.27)
+					(xy -1.778 -1.27) (xy -1.778 -2.286)
 				)
 				(stroke
 					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -1267,6 +1316,63 @@
 					(type outline)
 				)
 			)
+			(circle
+				(center -0.889 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
@@ -1291,6 +1397,509 @@
 					(type none)
 				)
 			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "TP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IPTG011N08NM5"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 10.16 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPTG011N08NM5"
+			(at 10.16 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_additional:infineon_PG-HSOG-8-1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPTG011N08NM5-DataSheet-v02_00-EN.pdf?fileId=5546d46277921c320177aa3f5c9e7d54"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "408A Id, 80V Vds, OptiMOS™ 5 N-Channel Power MOSFET, 1.1mOhm Ron, Qg (typ) 178.0nC, PG-HSOG-8-1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "IPTG011N08NM5_1_1"
+			(polyline
+				(pts
+					(xy -2.286 1.905) (xy -2.286 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.286) (xy -1.778 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 0.508) (xy -1.778 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -1.27) (xy -1.778 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -0.889 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 0 1.778)
 				(radius 0.254)
@@ -1300,6 +1909,53 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(circle
+				(center 0 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin input line
@@ -1340,7 +1996,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -1358,7 +2015,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -1376,7 +2034,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -1394,7 +2053,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -1412,7 +2072,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -1430,7 +2091,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -1465,14 +2127,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "IRF7341PBF"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,6 +2151,8 @@
 		)
 		(property "Value" "IRF7341PBF"
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,65 +2162,63 @@
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 5.08 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRF7341-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a4015355f64f031b63"
 			(at 5.08 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "3A Id, 30V Vds, Dual HEXFET N-Channel MOSFET, SO-8"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Dual HEXFET N-Channel MOSFET"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "IRF7341PBF_0_1"
-			(polyline
-				(pts
-					(xy 0.254 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1564,7 +2233,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1588,34 +2269,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
 				)
 				(stroke
 					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -1645,15 +2302,16 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.54 -1.778)
-				(radius 0.254)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(circle
@@ -1665,6 +2323,29 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -1761,7 +2442,8 @@
 			)
 			(pin passive line
 				(at 2.54 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -1871,7 +2553,8 @@
 			)
 			(pin passive line
 				(at 2.54 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -1888,6 +2571,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TPH11006NL"
 		(pin_names
@@ -1896,8 +2580,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 10.16 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,6 +2594,8 @@
 		)
 		(property "Value" "TPH11006NL"
 			(at 10.16 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,88 +2604,92 @@
 		)
 		(property "Footprint" "Package_SON_additional:Toshiba_SOP_Advance"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=14168&prodName=TPH11006NL"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "40A Id, 60V Vds, U-MOSⅧ-H N-Channel Power MOSFET, 9.6mOhm Ron, Qg (typ) 23nC, SOP Advance"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "SPICE"
 			(at 7.62 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Params" "type=\"M\" model=\"\" lib=\"\""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "U-MOSⅧ-H Power MOSFET N-MOS"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "TPH11006NL_1_1"
-			(circle
-				(center -0.889 0)
-				(radius 2.794)
+			(polyline
+				(pts
+					(xy -2.286 1.905) (xy -2.286 -1.905)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
-				)
-			)
-			(circle
-				(center 0 -1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(polyline
@@ -2012,19 +2706,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 1.905) (xy -2.286 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.778 -1.27) (xy -1.778 -2.286)
+					(xy -1.778 2.286) (xy -1.778 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2048,34 +2730,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 2.286) (xy -1.778 1.27)
+					(xy -1.778 -1.27) (xy -1.778 -2.286)
 				)
 				(stroke
 					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -2106,6 +2764,63 @@
 					(type outline)
 				)
 			)
+			(circle
+				(center -0.889 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
@@ -2130,17 +2845,6 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
@@ -2161,7 +2865,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -2179,7 +2884,8 @@
 			)
 			(pin passive line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -2233,7 +2939,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -2251,7 +2958,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -2269,7 +2977,8 @@
 			)
 			(pin passive line
 				(at 0 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D"
 					(effects
 						(font
@@ -2286,14 +2995,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "YJS05N06A"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,6 +3019,8 @@
 		)
 		(property "Value" "YJS05N06A"
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,36 +3030,44 @@
 		)
 		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
 			(at 5.08 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201131330_Yangzhou-Yangjie-Elec-Tech-YJS05N06A_C919590.pdf"
 			(at 5.08 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "5A Id, 60V Vds, Dual MOSFET N-Channel, SOP-8"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC" "C919590"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,23 +3076,39 @@
 		)
 		(property "ki_keywords" "Dual MOSFET N-Channel"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "YJS05N06A_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 0) (xy -2.54 0)
@@ -2381,7 +3123,31 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
 				)
 				(stroke
 					(width 0.254)
@@ -2405,20 +3171,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 1.27 0) (xy 2.286 0.381) (xy 2.286 -0.381) (xy 1.27 0)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
-				)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2439,6 +3204,28 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
@@ -2449,30 +3236,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 2.286 0.381) (xy 2.286 -0.381) (xy 1.27 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(polyline
@@ -2497,39 +3260,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(circle
-				(center 1.651 0)
-				(radius 2.794)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 -1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 2.54 1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 		)
@@ -2590,7 +3320,8 @@
 			)
 			(pin passive line
 				(at 2.54 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D1"
 					(effects
 						(font
@@ -2664,7 +3395,8 @@
 			)
 			(pin passive line
 				(at 2.54 5.08 270)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "D2"
 					(effects
 						(font
@@ -2681,5 +3413,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
