@@ -5,7 +5,7 @@
 私のリポジトリにある設計ファイルに含まれるシンボルやフットプリントで公式のライブラリにないものは、大体ここにあります。
 ### last update of following list
 <!-- start_timestamp -->
-Sat Jun 06 15:03:00 2026 UTC
+Tue Jun 09 10:09:54 2026 UTC
 <!-- end_timestamp -->
 # symbol list
 <!-- start_symbol_list -->
@@ -60,6 +60,7 @@ Sat Jun 06 15:03:00 2026 UTC
     - APG022N06G
     - BSC025N08LS5
     - IPT007N06N
+    - IPTC017N10NM5LF2
     - IPTG011N08NM5
     - IRF7341PBF
     - TPH11006NL
@@ -144,6 +145,7 @@ Sat Jun 06 15:03:00 2026 UTC
     - Rohm_SSOP-B20W_6.1x6.5mm_P0.65mm.kicad_mod
     - SO-6_5pin_4.4x3.6mm_P1.27mm.kicad_mod
 - Package_TO_SOT_SMD_additional.pretty/
+    - Infineon_PG-HDSOP-16-2.kicad_mod
     - infineon_PG-HSOG-8-1.kicad_mod
 - Potentiometer_additional.pretty/
     - Potentiometer_Murata_PVZ3A.kicad_mod
